@@ -14,7 +14,6 @@ function Congrats(props) {
 
 Congrats.propTypes = {
     success: propTypes.bool.isRequired,
-
 }
 
 export default Congrats;

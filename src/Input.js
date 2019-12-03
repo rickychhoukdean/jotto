@@ -30,7 +30,7 @@ export class UnconnectedInput extends Component {
           type="text"
           placeholder="enter guess"
           value={this.state.currentGuess}
-          onChange={event => this.state({ currentGuess: event.target.value })}
+          onChange={event => this.setState({ currentGuess: event.target.value })}
         ></input>
         <button
           data-test="submit-box"
